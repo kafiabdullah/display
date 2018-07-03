@@ -1,8 +1,8 @@
 *{
-	margin:0;
-	padding: 0;
-	box-sizing: border-box;
-	/* -webkit-box-sizing = border-box; */
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    /* -webkit-box-sizing = border-box; */
 
 }
 body{
@@ -14,8 +14,8 @@ background: white;
 color: #737373;
 }
 img{
-	max-width: 100%;
-	display: block;
+    max-width: 100%;
+    display: block;
 
 }
 
@@ -83,10 +83,10 @@ nav ul li a:hover{}
     position:  relative;
 }
 .banner-section img.monitor{
-	position: absolute;
-	bottom: -38px;
-	left: 20%;
-	transform: translateX(-60px);
+    position: absolute;
+    bottom: -38px;
+    left: 20%;
+    transform: translateX(-60px);
 }
 
 .about-us{
@@ -153,9 +153,10 @@ article p{
     text-align:  center;
 }
 .footer1 h1{
-    width:  50%;
+    /* width:  50%; */
     float:  left;
     color: white;
+    display:  inline-block;
 }
 .footer-section .footer2{
     width:  50%;
@@ -192,7 +193,7 @@ article p{
     padding: 40px;
 }
 .copyright-section .last-menu{ 
-	padding: 40px 40px;float:  left;}
+    padding: 40px 40px;float:  left;}
 .last-menu ul{
     float:  left;
     width: 40;
